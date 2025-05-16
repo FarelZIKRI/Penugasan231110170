@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #cce0f6;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fffdf8;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4ca2ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-card h1 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  
+  .profile-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .task-list h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin: 10px 0;
+  }
+  
+  .task-list a {
+    display: block;
+    padding: 12px 20px;
+    background-color: #0068d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .task-list a:hover {
+    background-color: #05376c;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 600px) {
+    .profile-img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .profile-card h1 {
+      font-size: 20px;
+    }
+  
+    .task-list h2 {
+      font-size: 18px;
+    }
+  
+    .task-list a {
+      font-size: 14px;
+      padding: 10px 16px;
+    }
+  }
+  
